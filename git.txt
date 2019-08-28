@@ -10,3 +10,9 @@ git log --pretty=oneline //一行显示日志
 git reset --hard <HEAD^(上个版本)HEAD^^(上上个版本)HEAD~100(第几个版本) 或者 写commit id> //回退到某个版本
 
 git reflog //当回退到上一个版本后想回到最新的版本但是找不到最新版本的commit id 此命令可列出所有的commit id
+
+//git操作逻辑 git和svn不同的是 git 有暂存区的概念 
+git add 是把文件修改添加到暂存区
+git commit 是把暂存区的所有内容提交到当前分支
+git push 是把当前分支的所有内容提交到远程分支
+git diff HEAD -- <文件> //查看工作区和版本库里面最新版本的区别
