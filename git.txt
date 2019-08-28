@@ -32,3 +32,10 @@ git reset HEAD <文件>
 然后执行
 git checkout -- <文件>
 这样就可以将暂存区和工作区都恢复到之前的状态
+
+//删除文件
+rm <文件> //删除文件
+git rm <文件> 删除 然后 git commit 从版本库中删除
+若是删错了 没有commit
+git checkout -- <文件> 可以把文件恢复到最新版本
+
