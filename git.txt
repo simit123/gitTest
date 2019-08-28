@@ -26,3 +26,9 @@ git checkout -- <文件>
 一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
 
 总之，就是让这个文件回到最近一次git commit或git add时的状态。
+
+//如果已经将文件add到暂存区但是没有commit 如何恢复呢？
+git reset HEAD <文件>
+然后执行
+git checkout -- <文件>
+这样就可以将暂存区和工作区都恢复到之前的状态
