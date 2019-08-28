@@ -1,1 +1,5 @@
-git rm -r --cached <文件名>
+git rm -r --cached <文件名> //将文件从git版本控制中移除
+git status //获取当前仓库的状态
+git remote add origin <远程仓库地址> //连接远程仓库
+git push -u origin master //第一次推送到远程master仓库
+git diff //查看本次修改内容
