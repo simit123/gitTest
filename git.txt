@@ -5,3 +5,8 @@ git push -u origin master //第一次推送到远程master仓库
 git diff //查看本次修改内容
 git log //查看日志
 git log --pretty=oneline //一行显示日志
+
+//版本回退命令
+git reset --hard <HEAD^(上个版本)HEAD^^(上上个版本)HEAD~100(第几个版本) 或者 写commit id> //回退到某个版本
+
+git reflog //当回退到上一个版本后想回到最新的版本但是找不到最新版本的commit id 此命令可列出所有的commit id
