@@ -3,3 +3,5 @@ git status //获取当前仓库的状态
 git remote add origin <远程仓库地址> //连接远程仓库
 git push -u origin master //第一次推送到远程master仓库
 git diff //查看本次修改内容
+git log //查看日志
+git log --pretty=oneline //一行显示日志
