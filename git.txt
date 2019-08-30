@@ -48,5 +48,12 @@ git branch //查看所有分支
 git branch -d <分支名称> //删除分支
 //高版本git 才支持git switch 命令
 git switch -c <分支名称> //创建并切换新的分支
+
+//文件发生冲突后 git status 可列出冲突的文件
+
+<<<<<<< HEAD 当前分支
 git switch <分支名称> //切换分支 部分的v感到放松放松的
+=======
+git switch <分支名称> //切换分支     和幅度萨芬士大夫撒  
+>>>>>>> feature1 分支名称
 
