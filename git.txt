@@ -58,5 +58,5 @@ git switch <分支名称> //切换分支     和幅度萨芬士大夫撒
 >>>>>>> feature1 分支名称
 
 git log --graph --pretty=oneline --abbrev-commit //查看分支合并日志
-
+add merge
 
