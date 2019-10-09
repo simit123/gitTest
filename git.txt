@@ -90,7 +90,6 @@ git stash //切换分支前，储存当前分支为提交的修改
 
 同样的bug，要在dev上修复，我们只需要把4c805e2 fix bug 101这个提交所做的修改“复制”到dev分支。注意：我们只想复制4c805e2 fix bug 101这个提交所做的修改，并不是把整个master分支merge过来。
 git cherry-pick 4c805e2 //4c805e2 -> commit id
-sadsadsa
 
 
 
