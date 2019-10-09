@@ -91,7 +91,5 @@ git stash //切换分支前，储存当前分支为提交的修改
 git cherry-pick 4c805e2 //4c805e2 -> commit id
 
 
-11111111111111111111111
-
 
 
